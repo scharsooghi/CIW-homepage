@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template_fa_a.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Peering into Jupiter</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #F0F0F0;
+}
+-->
+</style>
+<link href="../../css/site.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../js/first.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style1 {color: #000000}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+.style1 {color: #406480}
+body {
+	background-image: url(../../images/blue-tile.png);
+}
+-->
+</style>
+<script src="../../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="../../Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         
+          <tr bgcolor="#CFDCE6">
+            <td height="30">&nbsp;</td>
+        <td width="872">
+        	<table width="100%" border="0">
+  <tr>
+    <td width="236" align="left"><span id="dDate"></span> <strong>|</strong> <span id="dTime"></span></td>
+    <td >&nbsp;</td>
+    <td width="180"><form id="frm" name="frm" method="post" action="">
+    	<table width="100%" border="0">
+  <tr>
+    <td width="16" height="16"><img src="../../images/google.jpg" width="16" height="16" /></td>
+    <td width="60"><input type="text" class="text_field" height="13" style="background-color:#EEF3F7" name="gSearch" id="gSearch" value="Google" onfocus="value='' , style.background = '#ffffff'" onblur="style.background = '#eef3f7'" /></td>
+    <td><input type="image" name="btn" id="btn" src="../../images/search.png"  alt="search" title="search" onclick="search1()" /></td>
+  </tr>
+</table>
+
+    </form>    </td>
+            </tr>
+          </table></td><td>&nbsp;</td>
+      </tr>
+          <tr >
+            <td bgcolor="#406480">&nbsp;</td>
+            <td align="center" bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr>
+        <td width="14" bgcolor="#406480">&nbsp;</td>
+        <td align="center" bgcolor="#406480"><table width="420" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="60" align="center"><a href="../../research.html"><img src="../../images/research_3_rr.png" width="50" height="44" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../publications.html"><img src="../../images/pub_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../teaching_en.html"><img src="../../images/tadris_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../seminar_en.html"><img src="../../images/seminar_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../wikis.html"><img src="../../images/wiki_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../about_me.html"><img src="../../images/about_me_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../contact_me.html"><img src="../../images/contact_me_rr.png" width="50" height="50" border="0" /></a></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="14" bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td align="center" bgcolor="#406480" class="nav_link"><a href="../../research.html">Research</a> <strong>|</strong><span class="nav_link"> <a href="../../publications.html">Publications</a></span><strong> |</strong><span class="nav_link"><a href="../../teaching_en.html">Teaching</a></span><strong> | </strong><a href="../../seminar_en.html">Seminar</a> <strong>|</strong> <span class="nav_link"><a href="../../wikis.html">Wikis</a></span> <strong>|</strong> <span class="nav_link"><a href="../../about_me.html">About Me</a></span> <strong>|</strong> <span class="nav_link"><a href="../../contact_me.html">Contact Me</a></span></td>
+        <td bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" bgcolor="#406480"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="table_name_sci">
+          <tr>
+            
+            <td align="center" valign="middle"><a href="../../main_page.html"><img src="../../images/home_r.png" width="95" height="95" border="0" /></a></td>
+            <td width="775" height="140"><object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="775" height="140">
+              <param name="movie" value="../../media/baner_fa.swf" />
+              <param name="quality" value="high" />
+              <param name="wmode" value="opaque" />
+              <param name="swfversion" value="9.0.45.0" />
+              <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+              <param name="expressinstall" value="../../Scripts/expressInstall.swf" />
+              <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+              <!--[if !IE]> -->
+              <object type="application/x-shockwave-flash" data="../../media/baner_fa.swf" width="775" height="140">
+                <!--<![endif]-->
+                <param name="quality" value="high" />
+                <param name="wmode" value="opaque" />
+                <param name="swfversion" value="9.0.45.0" />
+                <param name="expressinstall" value="../../Scripts/expressInstall.swf" />
+                <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                <div>
+                  <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                  <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                </div>
+                <!--[if !IE]>-->
+              </object>
+              <!--<![endif]-->
+            </object></td>
+
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+        <td bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="14"><img src="../../images/h_dl.png" width="14" height="14" /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td width="14"><img src="../../images/h_dr.png" width="14" height="14" /></td>
+          </tr>
+        </table></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="table_body">
+      <tr>
+        <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="14"><img src="../../images/h_ul.png" width="14" height="14" /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td width="14"><img src="../../images/h_ur.png" width="14" height="14" /></td>
+            <td width="10">&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><!-- InstanceBeginEditable name="Title" --><h3 class="text">Peering into Jupiter</h3><div class="text" style="font-style:italic; font-size:12px">
+              <a href="#author">Jonathan Fortney</a><br/><br/>Department of Astronomy and Astrophysics, University of California, Santa Cruz, CA 95064, USA<p style="font-style:normal;"><strong> Published March 22, 2010 </strong></p>
+              Ab initio simulations account for the peculiar abundance characteristics of noble gases in Jupiter
+            </div><!-- InstanceEndEditable --></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><hr /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><!-- InstanceBeginEditable name="Main" --><div class="text"><div style="background-color:#9999FF"><blockquote><h4><br/>
+              <span class="style1">A Viewpoint on:</span></h4>
+              <p class="news_link"><a href="http://link.aps.org/doi/10.1103/PhysRevLett.104.121101"><strong>Sequestration of Noble Gases in Giant Planet Interiors</strong></a><a href="http://link.aps.org/doi/10.1103/PhysRevLett.104.137001"></a></p>
+              <p>Hugh F. Wilson and Burkhard Militzer</p>
+              <p>Phys. Rev. Lett. <strong>104</strong>, 121101 (2010) – Published March 22, 2010</p>
+              <p class="news2_link"><a onclick="javascript: pageTracker._trackPageview('/pdf/10.1103/PhysRevLett.104.132301.pdf')" href="http://physics.aps.org/pdf/10.1103/PhysRevLett.104.121101.pdf">Download PDF</a> (free)</p></blockquote><br/></div>
+              <p><img hspace="10" vspace="3" style="float:left" src="medium_e3.jpg" />Attaining in situ data from  planets in our solar system is an extremely difficult undertaking.  Decades of planning go into designing missions, and careful  consideration is made for what measurements should be made to yield the  greatest scientific gain, and to make the cost and risks worthwhile.  NASA’s Galileo mission, whose detailed planning began in 1970s, studied  the Jovian system from 1995 to 2003. The Galileo entry probe was  released from the main spacecraft, and plummeted into Jupiter’s  atmosphere at 48 km/s  on December 7, 1995. The data that was returned on the abundances of  atoms and molecules in the planet’s atmosphere are unique constraints  on our quantitative understanding of the interior structure, thermal  evolution, and formation of the planet. Since Jupiter is our prototype  giant planet, in a class that now numbers nearly 300 “gas giants” in other planetary systems, this data is even more valuable than it was 15 years ago. In a recent work in Physical Review Letters [<a href="#c1">1</a>], Hugh Wilson and Burkhard Militzer from the University of California at Berkeley, US, have used an ab initio  calculation of the mixing properties of noble gases under extreme  conditions to explain one of the more curious measurements from the  Galileo probe—the low abundances of the two lightest noble gases.
+              <p>Jupiter is composed mostly of H and He, like the Sun. However, we can look at the enhancements or decrements in the abundances of the atoms more massive than He  (“metals” in astronomical parlance), compared to the measured  abundances in the Sun and meteorites, to give us clues about the  formation and interior physics of the planet itself. The probe stopped  returning data at a pressure of only 22 bars, while most of the planet is at significantly higher pressure, in the range 1–40 Mbar (100–4000 GPa). However, efficient convection is expected to dominate in the interior, homogenizing the composition of the vast H-He envelope. Data from the Galileo probe showed that of the nine elements measured, six were enhanced by factors of 2 to 4 times that of the Sun [<a href="#c2">2</a>, <a href="http://physics.aps.org/articles/v3/26#c3">3</a>, <a href="#c4">4</a>]. These included the noble gases Ar, Kr, Xe, and the abundant elements C, N, and S. Oxygen was depleted by a factor of 2,  but a detailed visual and computational study of the probe entry point  shows that it entered through one of the anomalously dry regions that  make up a few percent of Jupiter’s visible surface [<a href="#c5">5</a>]. The in situ  measurements allow precise models to be devised of the composition of  the solid “planetesimals” that were incorporated into Jupiter during  its formation.</p>
+              <p>The abundances of He and Ne  were depleted, which is particularly odd, since the three other noble  gases (which also do not participate in solar system chemistry) are  enhanced by a uniform factor of 2. The depletion of He  was expected by some, since in the 1970s it was calculated that He  should have a limited solubility in the liquid metallic hydrogen that  makes up the bulk of Jupiter’s mass [<a href="#c6">6</a>, <a href="#c7">7</a>]. Recently, ab initio models yielded good agreement with this earlier work [<a href="#c8">8</a>, <a href="#c9">9</a>]. The pressure-temperature region where phase separation is expected to occur (1–10 Mbar, 104 K) is barely accessible to experiment. The pure H phase diagram has been sparsely explored with dynamic experiments, but has never been explored for He, let alone for H-He mixtures. If He phase separates from the mixture, and coalesces to form droplets that rain down to deeper layers, this could deplete He from layers above the rain region as well, due to homogenization of composition by convection [<a href="#c10">10</a>]. The modest He  depletion in Jupiter’s atmosphere is strong evidence that phase  separation has started in Jupiter and will continue for the lifetime of  the planet.</p>
+              <p>The very strong depletion in Ne has always been a bit curious. Just before Galileo arrived at Jupiter, Roulston and Stevenson [<a href="#c11">11</a>] published a one paragraph abstract suggesting that Ne  would dissolve into the separated He droplets, and would also be lost  to deeper layers. Indeed, this was exactly what was seen, but there has  always been lingering dissatisfaction, since no details of this  suggestion were ever published. How strong should the Ne  depletion be in this picture? Can it match observations? Would the  heavy noble gases dissolve as well? If so, this would “contaminate” the  measured noble gas abundance levels that theorists have been  incorporating into detailed formation models.</p>
+              <p>Wilson and Militzer have now provided the foundation for understanding the Galileo probe measurements for Ne and Ar. Ne has been shown to strongly prefer the He-rich droplet phase, leading to the measured strong depletion in the normal H-rich phase that makes up the visible atmosphere. A further detailed study of Ar  shows that it does not share this behavior, and that the atmospheric  abundance of this atom is the planet’s “true” value. It would be  worthwhile in the future to consider if other elements that were  measured by the entry probe strongly prefer one phase over another.  Perhaps an alternative to the “weather” explanation for the low  abundance of oxygen could be found?</p>
+              <p>This work has applications far beyond Jupiter. Saturn, which is only 30% of Jupiter’s mass and has a lower pressure and colder interior, should be much further into the pressure-temperature space of He  phase separation. Saturn has not had an entry probe, but difficult  spectroscopic measurements indicate a larger atmospheric depletion of  He than found in Jupiter, but the error bars are large [<a href="#c12">12</a>]. The He-rain  in Saturn is calculated to be so prevalent in the planet’s deep  interior that this planet-wide differentiation process explains the  long-noted excess luminosity of the planet [<a href="#c13">13</a>]. If a Saturn entry probe is finally sent, a much stronger depletion in Ne, but a similar ratio of depletion between He and Ne compared to Jupiter, is expected. He phase separation and corresponding Ne  depletion surely happens in several-gigayears-old Jovian planets found  around other stars as well. We are gradually beginning to understand  these planets as a class of astrophysical objects. It is the  wide-ranging study of these extrasolar planets, along with the  complementary detailed study of the planets close to home, which will  move us forward on this path.</p><hr align="left" width="75%" color="#999999" />
+               
+              <h4> References</h4>
+              <ol class="news2_link">
+                <li id="c1">H. F. Wilson and B. Militzer, <a href="http://link.aps.org/doi/10.1103/PhysRevLett.104.121101">Phys. Rev. Lett. <strong>104</strong>, 121101 (2010)</a>.</li>
+                <li id="c2">U. von Zahn, D. M. Hunten, and G. Lehmacher, <a href="http://dx.doi.org/10.1029/98JE00695">J. Geophys. Res. <strong>103</strong>, 22815 (1998)</a>.</li>
+                <li id="c3">P. R. Mahaffy, H. B. Niemann, A. Alpert, S. K. Atreya, J. Demick, T.M. Donahue, D.N. Harpold, and T. C. Owen, <a href="http://dx.doi.org/10.1029/1999JE001224">J. Geophys. Res. <strong>105</strong>, 15061 (2000)</a>.</li>
+                <li id="c4">M. H. Wong, P. R. Mahaffy, S. K. Atreya, H. B. Niemann, and T. C. Owen, <a href="http://dx.doi.org/10.1016/j.icarus.2004.04.010">Icarus <strong>171</strong>, 153 (2004)</a>.</li>
+                <li id="c5">A. P. Showman and A. P. Ingersoll, <a href="http://dx.doi.org/10.1006/icar.1998.5898">Icarus <strong>132</strong>, 205 (1998)</a>.</li>
+                <li id="c6">D. J. Stevenson, <a href="http://link.aps.org/doi/10.1103/PhysRevB.12.3999">Phys. Rev. B. <strong>12</strong>, 3999 (1975)</a>.</li>
+                <li id="c7">D. J. Stevenson and E. E. Salpeter, <a href="http://dx.doi.org/10.1086/190478">Astrophys. J. Supplement Series <strong>35</strong>, 221 (1977)</a>.</li>
+                <li id="c8">M. A. Morales, E. Schwegler, D. Ceperley, C. Pierleoni, S. Hamel, and K. Caspersen, <a href="http://dx.doi.org/10.1073/pnas.0812581106">Proc. Natl. Acad. Sci. U.S.A. <strong>106</strong>, 1324 (2009)</a>.</li>
+                <li id="c9">W. Lorenzen, B. Holst, and R. Redmer, <a href="http://link.aps.org/doi/10.1103/PhysRevLett.102.115701">Phys. Rev. Lett. <strong>102</strong>, 115701 (2009)</a>.</li>
+                <li id="c10">D. J. Stevenson and E. E. Salpeter, <a href="http://dx.doi.org/10.1086/190479">Astrophys. J. Supplement Series <strong>35</strong>, 239 (1977)</a>.</li>
+                <li id="c11">M. S. Roulston and D. J. Stevenson, Eos <strong>76</strong>, 343 (1995).</li>
+                <li id="c12">B. J. Conrath and D. Gautier, <a href="http://dx.doi.org/10.1006/icar.1999.6265">Icarus <strong>144</strong>,  124 (2000)</a>.</li>
+                <li id="c13">J. J. Fortney and W. B. Hubbard, <a href="http://dx.doi.org/10.1016/S0019-1035%2803%2900130-1">Icarus <strong>164</strong>,  228 (2003)</a>.</li>
+                <li id="c14">K. Lodders, H. Palme, and H. Gail, <a href="http://arxiv.org/abs/0901.1149">arXiv:0901.1149</a>.</li>
+              </ol>
+              <hr color="#999999" align="left" width="75%" />
+              <h4 ><a name="author" id="author"></a>About the Author</h4><img hspace="10"  style="float:left" src="thumb_fortney68-crop.jpg" />
+                <h4 style="color:#660033">Jonathan Fortney </h4>Jonathan Fortney in an assistant professor in the Department of Astronomy and Astrophysics at the University of California, Santa Cruz. He received his B.S. in physics from Iowa State University and Ph.D. in planetary sciences from the University of Arizona. His research focuses on modeling the interiors and atmospheres of planets outside the solar system, as well as the giant planets close to home. In February 2010 he received a Sloan Research Fellowship.
+                
+            </div><!-- InstanceEndEditable --></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><hr /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa">آخرین به روز رسانی: <!-- InstanceBeginEditable name="Update" -->Update<!-- InstanceEndEditable --></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><img src="../../images/h_dl.png" width="14" height="14" /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td><img src="../../images/h_dr.png" width="14" height="14" /></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="170" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+              <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><img src="../../images/t_ul.png" alt="t_ul" width="14" height="14" /></td>
+                  <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                  <td><img src="../../images/t_ur.png" alt="t_ur" width="14" height="14" /></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#406480">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#406480"><!-- InstanceBeginEditable name="part_s_n" --><strong>بخش علمی</strong><!-- InstanceEndEditable --></td>
+                  <td bgcolor="#406480">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#406480">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                  <td bgcolor="#406480">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#CFDCE6">&nbsp;</td>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#CFDCE6"><!-- InstanceBeginEditable name="Pic" --><img src="../../images/news_sci_r.png" width="95" height="95" /><!-- InstanceEndEditable --></td>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="14"><img src="../../images/t_dl.png" alt="t_dl" width="14" height="14" /></td>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                  <td width="14"><img src="../../images/t_dr.png" alt="t_dr" width="14" height="14" /></td>
+                </tr>
+              </table></td>
+            </tr>
+             <tr>
+            <td colspan="3" align="center" valign="middle">&nbsp;</td>
+          </tr>
+            <tr>
+              <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="14"><img src="../../images/h_ul.png" alt="h_ul" width="14" height="14" /></td>
+                  <td bgcolor="#406480">&nbsp;</td>
+                  <td width="14"><img src="../../images/h_ur.png" alt="h_ur" width="14" height="14" /></td>
+                </tr>
+              </table></td>
+            </tr>
+          <tr bgcolor="#33445A">
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+            <td align="center" valign="middle" bgcolor="#406480">Scientific Part, <br  />
+              Mostly in Persian</td>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr bgcolor="#33445A">
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+            <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="14" bgcolor="#CFDCE6">&nbsp;</td>
+            <td bgcolor="#CFDCE6">&nbsp;</td>
+            <td width="14" bgcolor="#CFDCE6">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../seminar_fa.html">سمینار</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../seminar_fa.html"><img src="../../images/seminar_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../paper_edu.html">مقاله‌های آموزشی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../paper_edu.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../paper_edu.html"><img src="../../images/paper_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../paper_edu.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../scientific_news.html">اخبار علمی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../scientific_news.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../scientific_news.html"><img src="../../images/news_sci_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../scientific_news.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../book_review.html">مرور کتاب</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../book_review.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../book_review.html"><img src="../../images/book2_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../book_review.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../history_science.html">تاریخ علم</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../history_science.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../history_science.html"><img src="../../images/history_sci3_rrr.png" alt="" width="25" height="20" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../history_science.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../scientific_encyclopedia.html">دانشنامه علمی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../scientific_encyclopedia.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../scientific_encyclopedia.html"><img src="../../images/daneshname_sci_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../scientific_encyclopedia.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../scientific_notes.html">نوشته‌های علمی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../scientific_notes.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../scientific_notes.html"><img src="../../images/scientific note_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../scientific_notes.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../teaching_fa.html">تدریس</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../teaching_fa.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../teaching_fa.html"><img src="../../images/tadris_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../teaching_fa.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../links.html">لینک‌ها</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../links.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../links.html"><img src="../../images/links2_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../links.html"></a></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="14"><img src="../../images/t_dl.png"  width="14" height="14" /></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="14"><img src="../../images/t_dr.png"  width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="14"><img src="../../images/h_ul.png" alt="" width="14" height="14" /></td>
+                <td bgcolor="#406480">&nbsp;</td>
+                <td width="14"><img src="../../images/h_ur.png" alt="" width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+            <td align="center" bgcolor="#406480">Non Scientific Part,<br  />
+Mostly in Persian</td>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3" bgcolor="#406480">&nbsp;</td>
+            </tr>
+          <tr>
+            <td colspan="3"  bgcolor="#CFDCE6">&nbsp;</td>
+            </tr>
+         
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../my_world.html">دنیای من</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../my_world.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../my_world.html"><img src="../../images/my_world_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../my_world.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../religous_philosophy.html">فلسفه، مذهب</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../religous_philosophy.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../religous_philosophy.html"><img src="../../images/philosophy_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../religous_philosophy.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../photos.html">گالری عکس</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../photos.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../photos.html"><img src="../../images/photo_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../photos.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../best_friend.html">بهترین دوستم</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../best_friend.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../best_friend.html"><img src="../../images/friend_1_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../best_friend.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../encyclopedia.html">دایرة المعارف</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../encyclopedia.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../encyclopedia.html"><img src="../../images/encyclopedia_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../encyclopedia.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../history.html">تاریخ</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../history.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../history.html"><img src="../../images/history_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../history.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../notes.html">نوشته‌ها</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../notes.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../notes.html"><img src="../../images/notes_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../notes.html"></a></td>
+                </tr>
+              </table></td>
+            </tr>
+          
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="14"><img src="../../images/t_dl.png" alt="" width="14" height="14" /></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="14"><img src="../../images/t_dr.png" alt="" width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="../../images/t_ul.png" alt="" width="14" height="14" /></td>
+                <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                <td><img src="../../images/t_ur.png" alt="" width="14" height="14" /></td>
+              </tr>
+              <tr>
+                <td bgcolor="#406480">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#406480"><strong>برای اعضا</strong></td>
+                <td bgcolor="#406480">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#406480">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                <td bgcolor="#406480">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#CFDCE6">&nbsp;</td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#CFDCE6"><table width="100%" border="0">
+                  <tr>
+                    <td><form id="frm1" name="frm1" method="post" action="">
+                      <table width="100%" border="0">
+                        <tr>
+                          <td class="style1" width="60">Username:</td>
+                          <td width="50"><input type="text" name="user" id="user" class="text_field" style="width: 60px;" /></td>
+                        </tr>
+                        <tr>
+                          <td class="style1">Password:</td>
+                          <td><label>
+                            <input type="password" name="pass" id="pass" class="text_field" style="width: 60px;" />
+                          </label></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" align="center"><input type="button" name="button" id="button" value="Login" class="button_text"  onclick="login()" /></td>
+                        </tr>
+                      </table>
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td><hr color="#406480" width="75%" /></td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="side_link"><a href="../../register.html">Register</a></td>
+                  </tr>
+                </table></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="14"><img src="../../images/t_dl.png" alt="t_dl" width="14" height="14" /></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="14"><img src="../../images/t_dr.png" alt="t_dr" width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          </table></td>  
+      </tr>
+      
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><img src="../../images/footer_line.png" width="900" height="4" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><p class="footer_link"><span class="nav_link"><a href="../../research.html">Research</a></span><strong>|</strong><span class="nav_link"> <a href="../../publications.html">Publications</a></span><strong> |</strong><span class="nav_link"><a href="../../teaching_en.html">Teaching</a></span><strong> | </strong><a href="../../seminar_en.html">Seminar</a> <strong>|</strong> <span class="nav_link"><a href="../../wikis.html">Wikis</a></span> <strong>|</strong> <a href="../../about_me.html"><span class="nav_link">About Me</span></a> <strong>|</strong> <span class="nav_link"><a href="../../contact_me.html">Contact Me</a></span></p>
+    <p><span class="copyright">Made and Designed by Charsooghi &copy;2009</span></p></td>
+  </tr>
+</table>
+  <!-- <script type="text/javascript"> -->
+<!--
+swfobject.registerObject("FlashID");
+//-->
+ <!-- </script> -->
+</body>
+<!-- InstanceEnd --></html>

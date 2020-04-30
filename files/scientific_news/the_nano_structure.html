@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template_fa_a.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>The nanostructure problem</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #F0F0F0;
+}
+-->
+</style>
+<link href="../../css/site.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../js/first.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style1 {color: #000000}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+.style1 {color: #406480}
+body {
+	background-image: url(../../images/blue-tile.png);
+}
+-->
+</style>
+<script src="../../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="../../Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         
+          <tr bgcolor="#CFDCE6">
+            <td height="30">&nbsp;</td>
+        <td width="872">
+        	<table width="100%" border="0">
+  <tr>
+    <td width="236" align="left"><span id="dDate"></span> <strong>|</strong> <span id="dTime"></span></td>
+    <td >&nbsp;</td>
+    <td width="180"><form id="frm" name="frm" method="post" action="">
+    	<table width="100%" border="0">
+  <tr>
+    <td width="16" height="16"><img src="../../images/google.jpg" width="16" height="16" /></td>
+    <td width="60"><input type="text" class="text_field" height="13" style="background-color:#EEF3F7" name="gSearch" id="gSearch" value="Google" onfocus="value='' , style.background = '#ffffff'" onblur="style.background = '#eef3f7'" /></td>
+    <td><input type="image" name="btn" id="btn" src="../../images/search.png"  alt="search" title="search" onclick="search1()" /></td>
+  </tr>
+</table>
+
+    </form>    </td>
+            </tr>
+          </table></td><td>&nbsp;</td>
+      </tr>
+          <tr >
+            <td bgcolor="#406480">&nbsp;</td>
+            <td align="center" bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr>
+        <td width="14" bgcolor="#406480">&nbsp;</td>
+        <td align="center" bgcolor="#406480"><table width="420" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="60" align="center"><a href="../../research.html"><img src="../../images/research_3_rr.png" width="50" height="44" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../publications.html"><img src="../../images/pub_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../teaching_en.html"><img src="../../images/tadris_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../seminar_en.html"><img src="../../images/seminar_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../wikis.html"><img src="../../images/wiki_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../about_me.html"><img src="../../images/about_me_rr.png" width="50" height="50" border="0" /></a></td>
+                <td width="60" align="center"><a href="../../contact_me.html"><img src="../../images/contact_me_rr.png" width="50" height="50" border="0" /></a></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="14" bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td align="center" bgcolor="#406480" class="nav_link"><a href="../../research.html">Research</a> <strong>|</strong><span class="nav_link"> <a href="../../publications.html">Publications</a></span><strong> |</strong><span class="nav_link"><a href="../../teaching_en.html">Teaching</a></span><strong> | </strong><a href="../../seminar_en.html">Seminar</a> <strong>|</strong> <span class="nav_link"><a href="../../wikis.html">Wikis</a></span> <strong>|</strong> <span class="nav_link"><a href="../../about_me.html">About Me</a></span> <strong>|</strong> <span class="nav_link"><a href="../../contact_me.html">Contact Me</a></span></td>
+        <td bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" bgcolor="#406480"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="table_name_sci">
+          <tr>
+            
+            <td align="center" valign="middle"><a href="../../main_page.html"><img src="../../images/home_r.png" width="95" height="95" border="0" /></a></td>
+            <td width="775" height="140"><object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="775" height="140">
+              <param name="movie" value="../../media/baner_fa.swf" />
+              <param name="quality" value="high" />
+              <param name="wmode" value="opaque" />
+              <param name="swfversion" value="9.0.45.0" />
+              <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+              <param name="expressinstall" value="../../Scripts/expressInstall.swf" />
+              <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+              <!--[if !IE]> -->
+              <object type="application/x-shockwave-flash" data="../../media/baner_fa.swf" width="775" height="140">
+                <!--<![endif]-->
+                <param name="quality" value="high" />
+                <param name="wmode" value="opaque" />
+                <param name="swfversion" value="9.0.45.0" />
+                <param name="expressinstall" value="../../Scripts/expressInstall.swf" />
+                <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                <div>
+                  <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                  <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                </div>
+                <!--[if !IE]>-->
+              </object>
+              <!--<![endif]-->
+            </object></td>
+
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td bgcolor="#406480">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+        <td bgcolor="#406480">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="14"><img src="../../images/h_dl.png" width="14" height="14" /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td width="14"><img src="../../images/h_dr.png" width="14" height="14" /></td>
+          </tr>
+        </table></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" id="table_body">
+      <tr>
+        <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="14"><img src="../../images/h_ul.png" width="14" height="14" /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td width="14"><img src="../../images/h_ur.png" width="14" height="14" /></td>
+            <td width="10">&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><!-- InstanceBeginEditable name="Title" --><h3 class="text">The nanostructure problem</h3><div class="text" style="font-style:italic; font-size:12px">
+              <a href="#author">Simon J. L. Billinge</a><br/><br/>Department of Applied Physics and Applied Mathematics, Columbia University, New York, NY 10027, USA<br/>
+Condensed Matter Physics and Materials Science Department, Brookhaven National Laboratory, Upton, NY 11973, USA<p style="font-style:normal;"><strong> Published March 22, 2010 </strong></p>
+              Diffraction techniques are making progress in tackling the difficult problem of solving the structures of nanoparticles and nanoscale materials.
+            </div><!-- InstanceEndEditable --></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><hr /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><!-- InstanceBeginEditable name="Main" --><div class="text"><div style="background-color:#9999FF"><blockquote><h4><br/>
+              <span class="style1">A Viewpoint on:</span></h4>
+              <p class="news_link"><a href="http://link.aps.org/doi/10.1103/PhysRevLett.104.125501"><strong>Structure Determination of Disordered Materials from Diffraction Data</strong></a><a href="http://link.aps.org/doi/10.1103/PhysRevLett.104.137001"></a></p>
+              <p>Matthew J. Cliffe, Martin T. Dove, D. A. Drabold, and Andrew L. Goodwin</p>
+              <p>Phys. Rev. Lett. <strong>104</strong>, 125501 (2010) – Published March 22, 2010</p>
+              <p class="news2_link"><a onclick="javascript: pageTracker._trackPageview('/pdf/10.1103/PhysRevLett.104.132301.pdf')" href="http://physics.aps.org/pdf/10.1103/PhysRevLett.104.125501.pdf">Download PDF</a> (free)</p></blockquote><br/></div>
+              <p><img hspace="10" vspace="3" style="float:left" src="medium_e4.jpg" />The great gift of x-ray crystallography has made us almost  complacent in our ability to locate the three-dimensional coordinates  of atoms in a crystal with a precision of around 10-4 nm.  However, the powerful methods of crystallography break down for  structures in which order only extends over a few nanometers. In fact,  as we near the one hundred year mark since the birth of  crystallography, we face a resilient frontier in condensed matter  physics: our inability to routinely and robustly determine the  structure of complex nanostructured and amorphous materials [<a href="#c1">1</a>].</p>
+			  <p>Knowing  the structure and arrangement of atoms in a solid is so fundamental to  understanding its properties that the topic routinely occupies the  early chapters of every solid-state physics textbook. Yet what has  become clear with the emergence of nanotechnology is that diffraction  data alone may not be enough to uniquely solve the structure of  nanomaterials. As part of a growing effort to incorporate the results  of other techniques to constrain x-ray refinements—a method called  “complex modeling” (Fig. 1)—Mathew Cliffe, Martin Dove, and Andrew  Goodwin at Cambridge University in the UK and David Drabold at Ohio  University in the US describe in Physical Review Letters  a simple but elegant approach for combining information from  spectroscopy with diffraction data to solve the structure of several  amorphous and nanostructured materials [<a href="#c2">2</a>].</p>
+			  <p>Crystallography just works,  so we rarely question how and why this is so, yet understanding the  physics of diffraction can be very helpful as we consider the  nanostructure problem. The relationship between the electron density  distribution in three dimensions (i.e., the crystal structure) and an  x-ray diffraction pattern is well established: the measured intensity  distribution in reciprocal space is the square of the Fourier transform  of the autocorrelation function 〈ρ(r)ρ(r+r′)〉 of the electron density distribution ρ(r) [<a href="#c3">3</a>].  The fact that we get the autocorrelation function (rather than just the  density distribution) by Fourier transforming the measured intensity  leaves us with a very tricky inverse problem: we have to extract the  density from its autocorrelation function. The direct problem of  predicting the diffraction intensity given a particular density  distribution is trivial, but the inverse, unraveling from the intensity  distribution the density that gives rise to it, is a highly nontrivial  problem in global optimization. In crystallography, this challenging,  nontrivial task is sometimes referred to as the “phase problem.” The  diffraction pattern is a wave-interference pattern, but we measure only  the intensities (the squares of the waves) not the wave amplitudes. To  get the amplitude, you take the square root of the intensity I, but in so doing you lose any knowledge of the phase of the wave ϕ, and half the information needed to reconstruct the density is lost, since I=Ψ*Ψ=A*e-iϕAeiϕ=|A2|.</p>
+			  <p>When  solving such inverse problems, you hope you can start with a uniqueness  theorem that reassures you that, under ideal conditions, there is only  one solution: one density distribution that corresponds to the measured  intensity. Then you have to establish that your data set contains  sufficient information to constrain that unique solution. This is a  problem from information theory that originated with Reverend Thomas  Bayes’ work in the 18th century, and the work of Nyquist and Shannon in the 20th century [<a href="#c4">4</a>, <a href="#c5">5</a>],  and describes the fact that the degrees of freedom in the model must  not exceed the number of pieces of independent information in the data.  Finally, you need an efficient algorithm for doing the reconstruction.</p>
+			  <p>This  is exactly how crystallography works. The information is in the form of  Bragg peak intensities and the degrees of freedom are the atomic  coordinates. Crystal symmetry lets us confine the model to the contents  of a unit cell, rather than all of the atoms in the crystal, keeping  the degrees of freedom admirably small in number. A measurement yields  a multitude of Bragg peak intensities, providing ample redundant  intensity information to make up for the lost phases. Finally, there  are highly efficient algorithms, such as “direct methods,” that make  excellent use of the available information and constraints to find the  solution quickly from a horrendously large search space. The problem is  often so overconstrained that we can cavalierly throw away lots of  directional information. In particular, even though Bragg peaks are  orientationally averaged to a 1D function in a powder diffraction measurement, we still can get a 3D structural solution [<a href="#c6">6</a>].</p>
+			  <p>Now  it becomes easy to understand the enormous challenge of solving  nanostructures: the information content in the data is degraded while  the complexity of the model is much greater. First, finite size effects  broaden the sharp Bragg peaks and the nanometer scale is precisely the  point where the broadening is sufficient that the peaks start to  overlap. (In fact, at this point, we can’t even call them Bragg peaks).  Second, the complexity of the structural solutions goes up. Now, we  need more than the coordinates of a few atoms in a unit cell—we need  the arrangement of hundreds or thousands of atoms in a nanoparticle.  Moreover, there can be complicated effects, like finite-size induced  relaxations in the core and the surface. The final indignity is that  the measured scattering intensity asymptotically approaches zero as the  nanoparticle gets smaller and the weak scattering of x rays, so useful  in bulk samples, turns around and bites us. In general, we have to  measure the intensity from a multitude of nanoparticles or  nanoclusters, and then tussle with the problem of how to deal with the  averaged data. Extensive efforts are being made, with notable successes  [<a href="#c7">7</a>, <a href="#c8">8</a>, <a href="#c9">9</a>], but the nanostructure problem remains a thorny one.</p>
+			  <p>The  use of total scattering and atomic-pair distribution function (PDF)  measurements for nanostructure studies is one promising approach [<a href="#c10">10</a>].  In these experiments, powders of identical particles are studied using  x-ray powder diffraction, resulting in good signals, but highly  averaged data. Short wavelength x rays or neutrons are used for the  experiments giving data with good real-space resolution, and the  resulting data are fit with models of the nanoparticle structures.  Uniqueness is a real issue, as is the availability of good  nanostructure solution algorithms; however, unique structure solutions  of clusters such as C60 have been demonstrated recently [<a href="#c7">7</a>].  These measurements have served as proof of principle demonstrations  that unique nanostructure solutions from PDF data can exist in  favorable situations. However, there are also some less encouraging  results. Attempts to fit amorphous structures, which have local order  on the subnanometer scale and lots of disorder, yield highly degenerate  results: many structure models, some completely physically nonsensical,  give equivalent fits to the data within errors [<a href="#c11">11</a>].  Degenerate solutions imply that there is insufficient information in  the data set to constrain a unique solution. At this point we would  like to seek additional constraints coming from prior knowledge about  the system, or additional data sets, such that these different  information sources can be combined, or “complexed,” to constrain a  unique solution, as shown in Fig. 1 [<a href="#c1">1</a>].  Complexing is done either by adding constraints on how model parameters  can vary (for example, crystal symmetries), or by adding terms to the  target (or cost) function that is being minimized in the global  optimization process.</p>
+			  <p>It is a major challenge to figure out ways  to incorporate disparate information sources into the global  optimization scheme and how to weight their contributions to the cost  function. In their paper, Cliffe et al.  demonstrate an elegant approach for introducing the constraint that all  local environments for a particular atom are identical, information  that is available, in principle, from spectroscopy measurements [<a href="#c2">2</a>].  In simple terms, they introduce a variance term into the cost function  that adds a cost when atomic environments of equivalent atoms in the  model deviate too much from one other.</p>
+			  <p>What is encouraging about  this result is that, in the systems they studied, this simple term was  the difference between successful and unsuccessful nanostructure  solutions. This tells us that complex modeling is not just a pipe  dream, but a real possibility. We see that a relatively simple but well  chosen constraint added to the cost function can give the structure  solution real legs. In Cliffe et al.’s work it allowed an inefficient optimization algorithm, called simulated annealing [<a href="#c12">12</a>], to solve the C60  structure by vastly reducing the volume of the search space, even  though for this particular case, extra constraints beyond the total  scattering data turn out to be unnecessary to solve the structure of C60  [<a href="#c7">7</a>].  We have seen a similar effect in our own work, where simply adding  ionic radii to a structure solution allowed us to solve structures from  total scattering data [<a href="#c13">13</a>].  Again, applying a simple constraint, which at first sight contained a  rather limited amount of information, was all that was needed for  success.</p>
+			  <p>We may be relearning lessons from crystallography again.  Crystallographers have been expert in applying simple constraints to  achieve great effects. Two key components in successful  structure-seeking algorithms are positivity and atomicity constraints.  The first requires that the correct solution will not include any  nonsensical negative density, and the second ensures that electron  density is sharply peaked in local regions of space (the locations of  the atoms) and approaches zero in between. These constraints are just  common sense, but place enormous restrictions on the solution space and  the efficiency and uniqueness of solutions. Nanostructure solution is  much younger than crystallography, but the field is rapidly growing up.</p>
+			  <h4>Acknowledgments</h4>
+			  <p>Support  is acknowledged from the US National Science Foundation through Grants  DMR-0520547 and DMR-0703940 and US Department of Energy under contract  No. DEAC02-98CH10886. I would like to thank Igor Levin, Normand  Mousseau, and Pavol Juhas for help putting together the figure.</p><hr align="left" width="75%" color="#999999" /><h4> References </h4>
+			  <ol class="news2_link">
+			    <li id="c1">S. J. L. Billinge and I. Levin, <a href="http://dx.doi.org/10.1126/science.1135080">Science <strong>316</strong>, 561 (2007)</a>.</li>
+			    <li id="c2">M. J. Cliffe, M. T. Dove, D. A. Drabold, and A. L. Goodwin, <a href="http://link.aps.org/doi/10.1103/PhysRevLett.104.125501">Phys. Rev. Lett. <strong>104</strong>, 125501 (2010)</a>.</li>
+			    <li id="c3">C. Giacovazzo, G. Gilli, H. L. Monaco, and D. Viterbo, Fundamentals of crystallography (Oxford University Press, Oxford, 1992)[<a href="http://www.amazon.com/exec/obidos/ISBN=0198555792">Amazon</a>][<a href="http://www.worldcat.org/isbn/0198555792">WorldCat</a>].</li>
+			    <li id="c4">H. Nyquist, IEEE Trans. <strong>47</strong>, 617 (1928).</li>
+			    <li id="c5">C. E. Shannon, Proc. IRE <strong>37</strong>, 10 (1949).</li>
+			    <li id="c6">Structure Determination from Powder Diffraction Data, edited by W. I. F. David, K. Shankland, L. B. McCusker, and C. Baerlocher (Oxford University Press, Oxford, 2002)[<a href="http://www.amazon.com/exec/obidos/ISBN=0198500912">Amazon</a>][<a href="http://www.worldcat.org/isbn/0198500912">WorldCat</a>].</li>
+			    <li id="c7">P. Juhás, D. M. Cherba, P. M. Duxbury, W. F. Punch, and S. J. L. Billinge, <a href="http://dx.doi.org/10.1038/nature04556">Nature <strong>440</strong>, 655 (2006)</a>.</li>
+			    <li id="c8">P. D. Jadzinsky, G. Calero, C. J. Ackerson, D. A. Bushnell, and R. D. Kornberg, <a href="http://dx.doi.org/10.1126/science.1148624">Science <strong>318</strong>, 430 (2007)</a>.</li>
+			    <li id="c9">K. E. Schmidt, J. C. H. Spence, U. Weierstall, R. Kirian, and R. B. Doak, <a href="http://link.aps.org/doi/10.1103/PhysRevLett.101.115507">Phys. Rev. Lett. <strong>101</strong>, 115507 (2008)</a>.</li>
+			    <li id="c10">T. Egami and S. J. L. Billinge, Underneath the Bragg peaks: structural analysis of complex materials (Pergamon Press, Oxford, 2003)[<a href="http://www.amazon.com/exec/obidos/ISBN=0080426980">Amazon</a>][<a href="http://www.worldcat.org/isbn/0080426980">WorldCat</a>].</li>
+			    <li id="c11">O. Gereben and L. Pusztai, <a href="http://link.aps.org/doi/10.1103/PhysRevB.50.14136">Phys. Rev. B <strong>50</strong>, 14136 (1994)</a>.</li>
+			    <li id="c12">N. Metropolis and S. Ulam, <a href="http://dx.doi.org/10.2307/2280232">J. Am. Stat. Assoc. <strong>44</strong>, 335 (1949)</a>.</li>
+			    <li id="c13">P. Juhás, L. Granlund, S. R. Gujarathi, P. M. Duxbury, and S. J. L. Billinge, <a href="http://arxiv.org/abs/1003.1097">arXiv:1003.1097</a>.</li>
+			    </ol><hr color="#999999" align="left" width="75%" />
+              <h4><a name="author" id="author"></a>About the Authors</h4><img hspace="10"  style="float:left" src="thumb_billinge_photo.jpg" /><h4 style="color:#660033">Simon J. L. Billinge</h4>
+			  <p>Simon Billinge is a Professor of Applied Physics, Materials Science,  and Applied Mathematics at Columbia University. He received his B.A.  and Ph.D. in materials science from Oxford University and University of  Pennsylvania, respectively. He would love to solve the nanostructure  problem, but in the meantime is developing scattering methods to that  end and applying them to answer scientific and technological questions  in a wide variety of nanomaterials from high-temperature  superconductors to pharmaceuticals.</p>
+            </div><!-- InstanceEndEditable --></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa"><hr /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td bgcolor="#406480" class="text_fa">آخرین به روز رسانی: <!-- InstanceBeginEditable name="Update" -->Update<!-- InstanceEndEditable --></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><img src="../../images/h_dl.png" width="14" height="14" /></td>
+            <td bgcolor="#406480">&nbsp;</td>
+            <td><img src="../../images/h_dr.png" width="14" height="14" /></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="170" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+              <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><img src="../../images/t_ul.png" alt="t_ul" width="14" height="14" /></td>
+                  <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                  <td><img src="../../images/t_ur.png" alt="t_ur" width="14" height="14" /></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#406480">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#406480"><!-- InstanceBeginEditable name="part_s_n" --><strong>بخش علمی</strong><!-- InstanceEndEditable --></td>
+                  <td bgcolor="#406480">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#406480">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                  <td bgcolor="#406480">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#CFDCE6">&nbsp;</td>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                  <td align="center" valign="middle" bgcolor="#CFDCE6"><!-- InstanceBeginEditable name="Pic" --><img src="../../images/news_sci_r.png" width="95" height="95" /><!-- InstanceEndEditable --></td>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="14"><img src="../../images/t_dl.png" alt="t_dl" width="14" height="14" /></td>
+                  <td bgcolor="#CFDCE6">&nbsp;</td>
+                  <td width="14"><img src="../../images/t_dr.png" alt="t_dr" width="14" height="14" /></td>
+                </tr>
+              </table></td>
+            </tr>
+             <tr>
+            <td colspan="3" align="center" valign="middle">&nbsp;</td>
+          </tr>
+            <tr>
+              <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="14"><img src="../../images/h_ul.png" alt="h_ul" width="14" height="14" /></td>
+                  <td bgcolor="#406480">&nbsp;</td>
+                  <td width="14"><img src="../../images/h_ur.png" alt="h_ur" width="14" height="14" /></td>
+                </tr>
+              </table></td>
+            </tr>
+          <tr bgcolor="#33445A">
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+            <td align="center" valign="middle" bgcolor="#406480">Scientific Part, <br  />
+              Mostly in Persian</td>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr bgcolor="#33445A">
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+            <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="14" bgcolor="#CFDCE6">&nbsp;</td>
+            <td bgcolor="#CFDCE6">&nbsp;</td>
+            <td width="14" bgcolor="#CFDCE6">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../seminar_fa.html">سمینار</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../seminar_fa.html"><img src="../../images/seminar_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../paper_edu.html">مقاله‌های آموزشی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../paper_edu.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../paper_edu.html"><img src="../../images/paper_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../paper_edu.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../scientific_news.html">اخبار علمی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../scientific_news.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../scientific_news.html"><img src="../../images/news_sci_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../scientific_news.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../book_review.html">مرور کتاب</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../book_review.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../book_review.html"><img src="../../images/book2_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../book_review.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../history_science.html">تاریخ علم</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../history_science.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../history_science.html"><img src="../../images/history_sci3_rrr.png" alt="" width="25" height="20" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../history_science.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../scientific_encyclopedia.html">دانشنامه علمی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../scientific_encyclopedia.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../scientific_encyclopedia.html"><img src="../../images/daneshname_sci_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../scientific_encyclopedia.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../scientific_notes.html">نوشته‌های علمی</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../scientific_notes.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../scientific_notes.html"><img src="../../images/scientific note_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../scientific_notes.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../teaching_fa.html">تدریس</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../teaching_fa.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../teaching_fa.html"><img src="../../images/tadris_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../teaching_fa.html"></a></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../links.html">لینک‌ها</a></td>
+                <td width="10" align="right" valign="middle" bgcolor="#CFDCE6"><a href="../../links.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../links.html"><img src="../../images/links2_rrr.png" alt="" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../links.html"></a></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="14"><img src="../../images/t_dl.png"  width="14" height="14" /></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="14"><img src="../../images/t_dr.png"  width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="14"><img src="../../images/h_ul.png" alt="" width="14" height="14" /></td>
+                <td bgcolor="#406480">&nbsp;</td>
+                <td width="14"><img src="../../images/h_ur.png" alt="" width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+            <td align="center" bgcolor="#406480">Non Scientific Part,<br  />
+Mostly in Persian</td>
+            <td width="14" bgcolor="#406480">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3" bgcolor="#406480">&nbsp;</td>
+            </tr>
+          <tr>
+            <td colspan="3"  bgcolor="#CFDCE6">&nbsp;</td>
+            </tr>
+         
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../my_world.html">دنیای من</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../my_world.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../my_world.html"><img src="../../images/my_world_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../my_world.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../religous_philosophy.html">فلسفه، مذهب</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../religous_philosophy.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../religous_philosophy.html"><img src="../../images/philosophy_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../religous_philosophy.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../photos.html">گالری عکس</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../photos.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../photos.html"><img src="../../images/photo_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../photos.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../best_friend.html">بهترین دوستم</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../best_friend.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../best_friend.html"><img src="../../images/friend_1_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../best_friend.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../encyclopedia.html">دایرة المعارف</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../encyclopedia.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../encyclopedia.html"><img src="../../images/encyclopedia_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../encyclopedia.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../history.html">تاریخ</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../history.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../history.html"><img src="../../images/history_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../history.html"></a></td>
+                </tr>
+              <tr>
+                <td align="right" valign="middle" bgcolor="#CFDCE6" class="side_link"><a href="../../notes.html">نوشته‌ها</a></td>
+                <td width="10" bgcolor="#CFDCE6"><a href="../../notes.html"></a></td>
+                <td width="25" bgcolor="#CFDCE6"><a href="../../notes.html"><img src="../../images/notes_rrr.png" width="25" height="25" border="0" /></a></td>
+                <td width="14" bgcolor="#CFDCE6"><a href="../../notes.html"></a></td>
+                </tr>
+              </table></td>
+            </tr>
+          
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="14"><img src="../../images/t_dl.png" alt="" width="14" height="14" /></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="14"><img src="../../images/t_dr.png" alt="" width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="3">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="../../images/t_ul.png" alt="" width="14" height="14" /></td>
+                <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                <td><img src="../../images/t_ur.png" alt="" width="14" height="14" /></td>
+              </tr>
+              <tr>
+                <td bgcolor="#406480">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#406480"><strong>برای اعضا</strong></td>
+                <td bgcolor="#406480">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#406480">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#406480">&nbsp;</td>
+                <td bgcolor="#406480">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#CFDCE6">&nbsp;</td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td align="center" valign="middle" bgcolor="#CFDCE6"><table width="100%" border="0">
+                  <tr>
+                    <td><form id="frm1" name="frm1" method="post" action="">
+                      <table width="100%" border="0">
+                        <tr>
+                          <td class="style1" width="60">Username:</td>
+                          <td width="50"><input type="text" name="user" id="user" class="text_field" style="width: 60px;" /></td>
+                        </tr>
+                        <tr>
+                          <td class="style1">Password:</td>
+                          <td><label>
+                            <input type="password" name="pass" id="pass" class="text_field" style="width: 60px;" />
+                          </label></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" align="center"><input type="button" name="button" id="button" value="Login" class="button_text"  onclick="login()" /></td>
+                        </tr>
+                      </table>
+                    </form></td>
+                  </tr>
+                  <tr>
+                    <td><hr color="#406480" width="75%" /></td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="side_link"><a href="../../register.html">Register</a></td>
+                  </tr>
+                </table></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="14"><img src="../../images/t_dl.png" alt="t_dl" width="14" height="14" /></td>
+                <td bgcolor="#CFDCE6">&nbsp;</td>
+                <td width="14"><img src="../../images/t_dr.png" alt="t_dr" width="14" height="14" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          </table></td>  
+      </tr>
+      
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><img src="../../images/footer_line.png" width="900" height="4" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><p class="footer_link"><span class="nav_link"><a href="../../research.html">Research</a></span><strong>|</strong><span class="nav_link"> <a href="../../publications.html">Publications</a></span><strong> |</strong><span class="nav_link"><a href="../../teaching_en.html">Teaching</a></span><strong> | </strong><a href="../../seminar_en.html">Seminar</a> <strong>|</strong> <span class="nav_link"><a href="../../wikis.html">Wikis</a></span> <strong>|</strong> <a href="../../about_me.html"><span class="nav_link">About Me</span></a> <strong>|</strong> <span class="nav_link"><a href="../../contact_me.html">Contact Me</a></span></p>
+    <p><span class="copyright">Made and Designed by Charsooghi &copy;2009</span></p></td>
+  </tr>
+</table>
+  <!-- <script type="text/javascript"> -->
+<!--
+swfobject.registerObject("FlashID");
+//-->
+ <!-- </script> -->
+</body>
+<!-- InstanceEnd --></html>

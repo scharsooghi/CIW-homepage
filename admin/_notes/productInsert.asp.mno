@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rset_place" value="name:id;datatype:int,name:place;datatype:varchar" />
+	<infoitem key="UD_Rset_buyers" value="name:id;datatype:int,name:accLevel_ref;datatype:int,name:username;datatype:varchar,name:password;datatype:varchar,name:fName;datatype:varchar,name:lName;datatype:varchar,name:email;datatype:varchar" />
+</info>

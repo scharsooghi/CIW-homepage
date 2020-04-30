@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rset_places" value="name:id;datatype:int,name:place;datatype:varchar" />
+	<infoitem key="UD_Rset_product" value="name:id;datatype:int,name:item;datatype:varchar,name:productNum;datatype:varchar,name:companyName;datatype:varchar,name:buyer_ref;datatype:int,name:price;datatype:float,name:quantity;datatype:int,name:date;datatype:smalldatetime,name:placeOfUse_ref;datatype:int,name:description;datatype:varchar" />
+	<infoitem key="UD_Rset_prod_user" value="name:id;datatype:int,name:item;datatype:varchar,name:productNum;datatype:varchar,name:companyName;datatype:varchar,name:fName;datatype:varchar,name:lName;datatype:varchar,name:price;datatype:float,name:quantity;datatype:int,name:date;datatype:smalldatetime,name:place;datatype:varchar,name:description;datatype:varchar" />
+</info>

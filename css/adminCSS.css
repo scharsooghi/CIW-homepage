@@ -1,0 +1,103 @@
+@charset "utf-8";
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003853;
+	background-image: url(../images/blue-tile.png);
+	background-repeat: repeat;
+}
+#form1 a {
+	color: #FF9900;
+	text-decoration: none;
+}
+#form1 a:hover {
+	color: #C64F00;
+}
+.textfields {
+	background-color: #B8CAD8;
+	border: 2px solid #4A6679;
+	text-indent: 20px;
+}
+.loginBT {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2C3D49;
+}
+#layer0 {
+	position: relative;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#layer1 {
+	position: relative;
+	width: 870px;
+	background-color: #003853;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFFFFF;
+}
+#layer2 {
+	position: relative;
+	width: 870px;
+	background-color: #CFDCE6;
+	color: #003853;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.backLink {
+	color: #000033;
+}
+
+
+#back {
+	color: #003853;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+	font-weight: bold;
+	right: 30px;
+}
+
+#layer3 {
+	position: relative;
+	width: 890px;
+	color: #FFFFFF;
+	background-color: #003853;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: normal;
+}
+#layer1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#layer1 a:hover {
+	color: #CFDCE6;
+}
+#layer2 a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #00699B;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 185px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CFDCE6;
+	padding-left: 25px;
+}
+#layer2 a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+	background-color:#0082BF;
+	padding-left: 40px;
+	width: 170px;
+}

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rset_accLevel" value="name:id;datatype:int,name:accessLevel;datatype:varchar" />
+</info>

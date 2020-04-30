@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rset_products" value="name:id;datatype:int,name:item;datatype:varchar,name:productNum;datatype:varchar,name:companyName;datatype:varchar,name:fName;datatype:varchar,name:lName;datatype:varchar,name:price;datatype:float,name:quantity;datatype:int,name:date;datatype:smalldatetime,name:place;datatype:varchar,name:description;datatype:varchar,name:username;datatype:varchar" />
+</info>
